@@ -1,0 +1,12 @@
+TARGETNAME=sample
+TARGETPATH=obj
+TARGETTYPE=EXPORT_DRIVER
+
+#TARGETLIBS= ... any libraries you need ...
+
+#INCLUDES= ... any include files you need ...
+
+SOURCES=sample.c \
+        sample.rc
+        
+DLLDEF=sample.def

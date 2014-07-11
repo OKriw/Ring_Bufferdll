@@ -1,0 +1,13 @@
+;
+; DEF file for sample kernel-mode DLL.
+;
+
+NAME SAMPLE.SYS
+
+EXPORTS
+    DllInitialize PRIVATE
+    DllUnload     PRIVATE
+    KlogInit
+    KlogDone
+    Klog
+    
